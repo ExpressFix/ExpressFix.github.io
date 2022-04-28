@@ -1,0 +1,79 @@
+.langLink img{
+    text-align: right;
+    width: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+nav{
+    text-align: center;
+}
+
+.selectedLink{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: solid black 1.5px;
+    border-radius: 4px;
+    font-family: "Courier New";
+    font-size: 2vw;
+}
+
+.otherLink{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid black 1.5px;
+    border-radius: 4px;
+    font-family: "Courier New";
+    font-size: 2vw;
+    transition: 0.2s;
+}
+
+.otherLink:hover{
+    background-color: black;
+    color: white;
+}
+
+.text{
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.diagnosis{
+    background-color: #ff5500;
+}
+
+h1{
+    font-family: 'Lucida Sans';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #ff5500;
+    color: white;
+    border: solid white 1.5px;
+    border-radius: 4px;
+    font-family: "Courier New";
+    margin: 10px;
+    font-size: 2vw;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: white;
+    color: #ff5500;
+    margin: 15px;
+}
