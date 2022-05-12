@@ -1,6 +1,6 @@
 .langLink img{
     text-align: right;
-    width: 4%;
+    width: 4vw;
     display: block;
     margin-left: auto;
     margin-right: 0;
@@ -24,7 +24,7 @@ nav{
     border: solid black 1.5px;
     border-radius: 4px;
     font-family: "Courier New";
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 .otherLink{
@@ -34,7 +34,7 @@ nav{
     border: solid black 1.5px;
     border-radius: 4px;
     font-family: "Courier New";
-    font-size: 2vw;
+    font-size: 25px;
     transition: 0.2s;
 }
 
@@ -62,13 +62,13 @@ h1{
 
 .button{
     text-decoration: none;
-    background-color: #ff5500;
+    background-color: transparent;
     color: white;
     border: solid white 1.5px;
     border-radius: 4px;
     font-family: "Courier New";
     margin: 10px;
-    font-size: 2vw;
+    font-size: 25px;
     transition: 0.2s;
 }
 
@@ -76,4 +76,41 @@ h1{
     background-color: white;
     color: #ff5500;
     margin: 15px;
+}
+
+.copyright{
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+}
+
+@keyframes slideFromRight{
+    0%{
+        transform: translateX(100%);
+        filter: opacity(0);
+    }
+    100%{
+        transfrm: translateX(0);
+        filter: opacity(100%);
+    }
+}
+
+main{
+    animation: 0.5s ease-out 0s 1 slideFromRight;
+}
+
+.ssd{
+    background-image: url(Others/ssd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
