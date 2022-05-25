@@ -125,3 +125,11 @@ main{
     background-position: center right;
     padding: 60px;
 }
+
+.vir{
+    background-image: url(Others/vir.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 60px;
+}
